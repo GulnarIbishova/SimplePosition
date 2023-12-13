@@ -63,4 +63,24 @@ body {
     width: 200px;
     height: 200px;
   }
+}
+
+#btn {
+  padding: 50px 0;
+}
+#btn .box .btn {
+  padding: 16px 35px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #3851c1;
+  color: white;
+}
+#btn .box .btn h1 {
+  font-size: 20px;
+}
+@media (max-width: 700px) {
+  #btn .box .btn {
+    color: #100a0a;
+    background-color: #e63e14;
+  }
 }/*# sourceMappingURL=style.css.map */
